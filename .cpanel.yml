@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cpmw22/git.cpmwerp.com/root/
+    - /bin/cp -R * $DEPLOYPATH
+    
