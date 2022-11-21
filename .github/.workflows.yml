@@ -1,6 +1,7 @@
 # build, test, and ftp deploy a jekyll site
 name: ci:deploy
-on:push:    branches:
+on:push:    
+branches:
       - main
 jobs:
   deploy:
